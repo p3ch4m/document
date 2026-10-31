@@ -237,7 +237,7 @@ export default defineConfig(({ command }) => {
       // resolves the same way for tsc and for the bundler. The five
       // directory-specific aliases that used to live here pointed at
       // `store/` and `assets/`, which do not exist in this repo.
-      alias: [{ find: '@', replacement: __dirname }, ...(command === 'serve' ? workspaceSourceAliases(__dirname) : [])],
+      alias: [{ find: '@', replacement: __dirname }, ...workspaceSourceAliases(__dirname)],
       extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'],
     },
   };

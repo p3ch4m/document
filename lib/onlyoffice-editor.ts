@@ -186,6 +186,7 @@ function createPersonalEditorInstance(config: {
       // spreadsheet editor (found by the UI crawl).
       coEditing: { mode: 'fast', change: false },
       lang: editorLang,
+      region: 'es-PE',
       user: {
         id: 'local-user',
         name: 'Guest',
