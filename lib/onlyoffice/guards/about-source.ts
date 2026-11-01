@@ -12,7 +12,8 @@
  * Legal text is additive; guards/chrome.ts hides only product branding.
  */
 const NOTICE_ID = 'oo-source-notice';
-const SOURCE_URL = 'https://github.com/ranuts/document';
+// Código fuente de ESTA versión modificada (Tucno y Asesores), no el del proyecto original.
+const SOURCE_URL = 'https://github.com/p3ch4m/document/tree/tucno-asesores';
 const WATCHED = '__ranSourceNoticeWatched';
 
 function renderNotice(doc: Document, panel: HTMLElement): void {

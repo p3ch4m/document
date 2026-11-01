@@ -160,6 +160,8 @@ The changes made to it are:
   * lib/onlyoffice-editor.ts -- 2026-10-31 by Tucno y Asesores: regional format
     es-PE. vite.config.ts -- same date: builds from source without building the
     internal packages first.
+  * lib/onlyoffice/guards/about-source.ts -- 2026-10-31 by Tucno y Asesores: the
+    "Source code" link of the About pane points to this modified branch.
   * Deployment note (Tucno y Asesores): the file x2t.wasm.br is served already
     decompressed (the same bytes as the decompressed original) under the same
     name, because the host does not honour Content-Encoding: br for it.

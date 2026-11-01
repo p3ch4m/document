@@ -12,3 +12,5 @@ Cambios (31/10/2026):
   (Fuente, Alineación, Número, Estilos, Celdas, Edición); «Formato condicional» y «Dar formato como tabla»
   son botones grandes con su nombre, «Insertar» y «Eliminar» llevan su nombre y la galería de estilos de
   celda queda más angosta. El cambio se aplica con `scripts/reordenar-cinta-inicio.py` del portal (31/10/2026).
+- `lib/onlyoffice/guards/about-source.ts`: el enlace «Source code» del panel Acerca de apunta a esta rama
+  modificada y no al proyecto original (31/10/2026).
